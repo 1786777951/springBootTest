@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping(value = "/hello")
     public static String main(String[] args) {
-        return "Hello SpringBoot!";
+        return "Hello SpringBootTest";
     }
 }
